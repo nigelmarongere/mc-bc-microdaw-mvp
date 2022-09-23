@@ -1,0 +1,114 @@
+.body{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+/* DRUMS */
+
+#genres{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+#sounds{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#genres button{
+    text-align: center;
+    border: 2.5px solid silver;
+    height: 24px;
+    margin: 4px;
+}
+
+#genre-0{
+    background-color: white;
+}
+
+#genre-1{
+    background-color: blue;
+}
+
+#genre-2{
+    background-color: red;
+}
+
+#genre-3{
+    background-color: purple;
+}
+
+#sounds button{
+    border: 4px solid silver;
+    padding: 53px 53px;
+    margin: 4.5px;
+}
+
+.default{
+    background-color: white;
+}
+
+.as{
+    background-color: blue;
+}
+
+.bk{
+    background-color: red;
+}
+
+.hp{
+    background-color: purple;
+}
+
+/* KEYBOARD */
+#keyboard{
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    /* position: absolute; */
+    width: fit-content;
+    height: 200px;
+    border: 5px solid silver;
+    overflow: hidden;
+    display: flex;
+}
+
+.whitenote{
+    height: 100%;
+    width: 50px;
+    background: white;
+    float: left;
+    border-right: 1px solid black;
+    position: relative;
+}
+
+.blacknote{
+    position: absolute;
+    height: 65%;
+    width: 55%;
+    z-index: 1;
+    background: #777;
+    left: 71%;
+}
